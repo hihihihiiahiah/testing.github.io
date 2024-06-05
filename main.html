@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple HTML with JS</title>
+    <script>
+      function greet() {
+        var name = document.getElementById("name").value;
+        alert("Hello, " + name + "!");
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Simple HTML with JS</h1>
+    <label for="name">Enter your name:</label>
+    <input type="text" id="name" />
+    <button onclick="greet()">Greet</button>
+  </body>
+</html>
